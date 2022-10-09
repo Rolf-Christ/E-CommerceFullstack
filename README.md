@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 **E-Commerce Template**
 
-This is a simple and easy to integrate e-commerce design template based on Bootstrap 4.
+This is a simple and easy to integrate e-commerce design template based on reactjs and Bootstrap 4 .
 
 ![Capture d’écran_2022-10-08_23-07-47](https://user-images.githubusercontent.com/68683189/194729581-cae2e48e-a4b6-4fc7-ac30-587779ffc0b2.png)
 ![Capture d’écran_2022-10-08_23-08-52](https://user-images.githubusercontent.com/68683189/194729582-bd27c3b6-d1a8-4e7b-b3d8-cf9d1bd50c40.png)

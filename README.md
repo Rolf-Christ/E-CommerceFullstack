@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is a simple and easy to integrate e-commerce design template based on Bootstrap 4.
 
-https://github.com/Rolf-Christ/E-CommerceFullstack.github.io/blob/main/front-end/src/assets/images/Capture%20d%E2%80%99%C3%A9cran_2022-10-09_17-22-29.png
+![Capture d’écran_2022-10-08_23-07-47](https://github.com/Rolf-Christ/E-CommerceFullstack.github.io/blob/main/front-end/src/assets/images/Capture%20d%E2%80%99%C3%A9cran_2022-10-09_17-22-29.png)
 ![Capture d’écran_2022-10-08_23-07-47](https://user-images.githubusercontent.com/68683189/194729581-cae2e48e-a4b6-4fc7-ac30-587779ffc0b2.png)
 ![Capture d’écran_2022-10-08_23-08-52](https://user-images.githubusercontent.com/68683189/194729582-bd27c3b6-d1a8-4e7b-b3d8-cf9d1bd50c40.png)
 ![Capture d’écran_2022-10-08_23-09-19](https://user-images.githubusercontent.com/68683189/194729584-ef15e0e9-04b4-4860-82b3-913def376575.png)

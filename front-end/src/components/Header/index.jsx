@@ -21,10 +21,10 @@ function Header({logo}) {
                 <div className="col-auto">
                     <ul className="top-nav">
                         <li>
-                            <a href="register.html"><i className="fas fa-user-edit mr-2"></i>Register</a>
+                            <a href="#e"><i className="fas fa-user-edit mr-2"></i>Register</a>
                         </li>
                         <li>
-                            <a href="login.html"><i className="fas fa-sign-in-alt mr-2"></i>Login</a>
+                            <a href="#e"><i className="fas fa-sign-in-alt mr-2"></i>Login</a>
                         </li>
                     </ul>
                 </div>

@@ -7,7 +7,7 @@ import Slider from './components/Slider'
 import TopSellingProducts from './components/TopSellingProducts'
 
 import logo from './assets/images/logo.png'
-import MsgInfo from './components/MsgInfo'
+// import MsgInfo from './components/MsgInfo'
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
       </div>
     </div>
 
-    <MsgInfo />
+    {/* <MsgInfo /> */}
     </>
   )
 }

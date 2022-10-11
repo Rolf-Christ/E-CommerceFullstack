@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Rolf-Christ.github.io/E-CommerceFullstack/static/css/main.b82dfad4.css",
+    "main.js": "/Rolf-Christ.github.io/E-CommerceFullstack/static/js/main.3fe3ebd9.js",
+    "static/media/fa-solid-900.svg": "/Rolf-Christ.github.io/E-CommerceFullstack/static/media/fa-solid-900.4eb6043220be660d50c5.svg",
+    "static/media/fa-brands-400.svg": "/Rolf-Christ.github.io/E-CommerceFullstack/static/media/fa-brands-400.c02d7d9389ae7e1b28be.svg",
+    "static/media/fa-solid-900.eot": "/Rolf-Christ.github.io/E-CommerceFullstack/static/media/fa-solid-900.dc4cd499c4e39885ce89.eot",
+    "static/media/fa-solid-900.ttf": "/Rolf-Christ.github.io/E-CommerceFullstack/static/media/fa-solid-900.8fb677a95f4d1a60a535.ttf",
+    "static/media/fa-regular-400.svg": "/Rolf-Christ.github.io/E-CommerceFullstack/static/media/fa-regular-400.75ec6f4859d31ffaece8.svg",
+    "static/media/fa-brands-400.eot": "/Rolf-Christ.github.io/E-CommerceFullstack/static/media/fa-brands-400.469ff15e72ceda3868c7.eot",
+    "static/media/fa-brands-400.ttf": "/Rolf-Christ.github.io/E-CommerceFullstack/static/media/fa-brands-400.686336e914dbcd5bc20d.ttf",
+    "static/media/fa-solid-900.woff": "/Rolf-Christ.github.io/E-CommerceFullstack/static/media/fa-solid-900.230d39e89103765834b3.woff",
+    "static/media/fa-brands-400.woff": "/Rolf-Christ.github.io/E-CommerceFullstack/static/media/fa-brands-400.ecbd4c551abdab14dade.woff",
+    "static/media/fa-brands-400.woff2": "/Rolf-Christ.github.io/E-CommerceFullstack/static/media/fa-brands-400.d5a5eb19947a21cc9b89.woff2",
+    "static/media/fa-solid-900.woff2": "/Rolf-Christ.github.io/E-CommerceFullstack/static/media/fa-solid-900.867bbaaf9dda15b203dd.woff2",
+    "static/media/fa-regular-400.eot": "/Rolf-Christ.github.io/E-CommerceFullstack/static/media/fa-regular-400.9dfcdc0f7d840f913a76.eot",
+    "static/media/fa-regular-400.ttf": "/Rolf-Christ.github.io/E-CommerceFullstack/static/media/fa-regular-400.9c9c54c0abf3b8a46695.ttf",
+    "static/media/logo.png": "/Rolf-Christ.github.io/E-CommerceFullstack/static/media/logo.049b78878aab32e0205a.png",
+    "static/media/fa-regular-400.woff": "/Rolf-Christ.github.io/E-CommerceFullstack/static/media/fa-regular-400.c579c7d9be63a3337b96.woff",
+    "static/media/fa-regular-400.woff2": "/Rolf-Christ.github.io/E-CommerceFullstack/static/media/fa-regular-400.73b2218024541ec4e90d.woff2",
+    "index.html": "/Rolf-Christ.github.io/E-CommerceFullstack/index.html",
+    "main.b82dfad4.css.map": "/Rolf-Christ.github.io/E-CommerceFullstack/static/css/main.b82dfad4.css.map",
+    "main.3fe3ebd9.js.map": "/Rolf-Christ.github.io/E-CommerceFullstack/static/js/main.3fe3ebd9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b82dfad4.css",
+    "static/js/main.3fe3ebd9.js"
+  ]
+}

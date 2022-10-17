@@ -1,6 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
+import { Link } from 'react-router-dom'
+
+
 
 function Footer() {
+
+  const [newsletterSubscribe, setNewsletterSubscribe] = useState('')
+
+  const handleSubmit = (e) => {
+    console.log(newsletterSubscribe)
+  }
+
   return (
     <footer className="row">
       <div className="col-12 bg-dark text-white pb-3 pt-5">
@@ -9,7 +19,7 @@ function Footer() {
             <div className="row">
               <div className="col-12">
                 <div className="footer-logo">
-                  <a href="index.html">E-Commerce</a>
+                  <Link to="/">E-Commerce</Link>
                 </div>
               </div>
               <div className="col-12">
@@ -19,21 +29,21 @@ function Footer() {
                 </address>
               </div>
               <div className="col-12">
-                <a href="#" className="social-icon">
+                <Link to="/" className="social-icon">
                   <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#" className="social-icon">
+                </Link>
+                <Link to="/" className="social-icon">
                   <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#" className="social-icon">
+                </Link>
+                <Link to="/" className="social-icon">
                   <i className="fab fa-pinterest-p"></i>
-                </a>
-                <a href="#" className="social-icon">
+                </Link>
+                <Link to="/" className="social-icon">
                   <i className="fab fa-instagram"></i>
-                </a>
-                <a href="#" className="social-icon">
+                </Link>
+                <Link to="/" className="social-icon">
                   <i className="fab fa-youtube"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -66,19 +76,19 @@ function Footer() {
               <div className="col-12">
                 <ul className="footer-nav">
                   <li>
-                    <a href="#">Home</a>
+                    <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <a href="#">Contact Us</a>
+                    <Link to="/">Contact Us</Link>
                   </li>
                   <li>
-                    <a href="#">About Us</a>
+                    <Link to="/">About Us</Link>
                   </li>
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <Link to="/">Privacy Policy</Link>
                   </li>
                   <li>
-                    <a href="#">Terms & Conditions</a>
+                    <Link to="/">Terms & Conditions</Link>
                   </li>
                 </ul>
               </div>
@@ -92,19 +102,19 @@ function Footer() {
               <div className="col-12">
                 <ul className="footer-nav">
                   <li>
-                    <a href="#">FAQs</a>
+                    <Link to="/">FAQs</Link>
                   </li>
                   <li>
-                    <a href="#">Shipping</a>
+                    <Link to="/">Shipping</Link>
                   </li>
                   <li>
-                    <a href="#">Returns</a>
+                    <Link to="/">Returns</Link>
                   </li>
                   <li>
-                    <a href="#">Track Order</a>
+                    <Link to="/">Track Order</Link>
                   </li>
                   <li>
-                    <a href="#">Report Fraud</a>
+                    <Link to="#">Report Fraud</Link>
                   </li>
                 </ul>
               </div>
@@ -113,16 +123,18 @@ function Footer() {
           <div className="col-lg-3 col-sm-6 text-center text-sm-left">
             <div className="row">
               <div className="col-12 text-uppercase">
-                <h4>Newsletter</h4>
+                <h4>Newsletter {newsletterSubscribe}</h4>
               </div>
               <div className="col-12">
-                <form action="#">
+                <form onSubmit={handleSubmit} >
                   <div className="form-group">
                     <input
                       type="text"
                       className="form-control"
                       placeholder="Enter your email..."
-                      required
+                      required="required"
+                      onChange={(e) => setNewsletterSubscribe(e.target.value)}
+                      
                     />
                   </div>
                   <div className="form-group">

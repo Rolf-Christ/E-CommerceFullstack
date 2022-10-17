@@ -13,19 +13,22 @@ function Slider() {
         <div className="carousel-inner" role="listbox">
           <div className="carousel-item active">
             <img
-              src='https://cdn.pixabay.com/photo/2016/08/17/04/43/template-1599667_960_720.png' alt='images'
+              src="https://cdn.pixabay.com/photo/2016/08/17/04/43/template-1599667_960_720.png"
+              alt="images"
               className="slider-img"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://cdn.pixabay.com/photo/2018/02/11/17/43/bitcoin-3146330_960_720.jpg" alt='images'
+              src="https://cdn.pixabay.com/photo/2018/02/11/17/43/bitcoin-3146330_960_720.jpg"
+              alt="images"
               className="slider-img"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://cdn.pixabay.com/photo/2018/03/12/08/51/payroll-3219081_960_720.jpg" alt='images'
+              src="https://cdn.pixabay.com/photo/2018/03/12/08/51/payroll-3219081_960_720.jpg"
+              alt="images"
               className="slider-img"
             />
           </div>

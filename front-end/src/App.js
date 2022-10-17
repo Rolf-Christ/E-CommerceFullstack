@@ -1,38 +1,26 @@
-import BottomMain from './components/BottomMain'
-import FeaturedProducts from './components/FeaturedProducts'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import LatestProducts from './components/LatestProducts'
-import Slider from './components/Slider'
-import TopSellingProducts from './components/TopSellingProducts'
-
-import logo from './assets/images/logo.png'
-// import MsgInfo from './components/MsgInfo'
+import { Routes, Route } from 'react-router-dom'
+import MsgInfo from './components/MsgInfo'
+import ShoppingCard from './pages/ShoppingCard'
+import CategoryProducts from './pages/CategoryProducts'
+import Home from './pages/Home'
+import Login from './pages/Login'
+import Products from './pages/Products'
+import Register from './pages/Register'
 
 function App() {
   return (
     <>
-    <div className="container-fluid">
-      <div className="row min-vh-100">
-        <div className="col-12">
-          <Header logo={logo}/>
-        </div>
-        <div className="col-12">
-          <main className="row">
-            <Slider />
-            <FeaturedProducts />
-            <LatestProducts />
-            <TopSellingProducts />
-            <BottomMain />
-          </main>
-        </div>
-        <div className="col-12 align-self-end">
-          <Footer />
-        </div>
-      </div>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/articles" element={<CategoryProducts />} />
+        <Route path="/produit" element={<Products />} />
+        <Route path="/card" element={<ShoppingCard />} />
+        <Route path="/*" element={<MsgInfo />} />
+      </Routes>
 
-    {/* <MsgInfo /> */}
+      {/* "homepage": "Rolf-Christ.github.io/E-CommerceFullstack", */}
     </>
   )
 }
